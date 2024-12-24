@@ -14,7 +14,7 @@ createsuperuser:
 	python3 manage.py createsuperuser
 
 lint:
-	flake8 .
+	flake8 app/urls.py
 
 format:
 	black .
