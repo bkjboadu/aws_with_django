@@ -20,8 +20,6 @@ jobs:
     - name: Install dependencies
       run: make install
 
-    - name: check linkt
+    - name: check lint
       run: make lint
 
-    - name: Runserver
-      run: make runserver
