@@ -16,5 +16,8 @@ createsuperuser:
 lint:
 	flake8 .
 
+format:
+	black .
+
 install:
 	pip install -r requirements.txt
